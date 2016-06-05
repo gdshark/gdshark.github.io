@@ -1,0 +1,83 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	background-color: yellow;
+	font-family: helvetica;
+	
+	
+}
+.mast-head {
+	background-image: url("https://static.pexels.com/photos/106400/pexels-photo-106400.jpeg");
+	height: 40em;
+	background-position: center;
+	background-size: cover;
+	padding: 10em; 
+	border-top: 5px solid white;
+	
+}
+.mast-head p, .mast-head h1 {
+		text-align: center;
+		color: white;
+		text-shadow: 3px 3px 3px #000;
+}
+		.mast-head p {
+			font-size: 3em;
+		}
+		.mast-head h1 {
+			font-size: 7em;
+			
+		}
+		section {
+			margin: 2em 15em;
+		}
+		footer  {
+			text-align: center;
+		}
+		footer a {
+			text-decoration: none;
+			color: blue;
+		}
+		footer a:hover {
+			text-decoration: none;
+			color: black;
+
+		}
+		.social li {
+			color: #66b3ff;
+			
+		}
+		footer ul li{
+			display: inline;
+		}
+		section h1 {
+			list-style-type: none;
+			color: blue;
+			font-size: 3em;
+			}	
+		section p {
+			font-size: 1.5em;
+		}
+		nav ul li {
+			display: inline;
+			padding-left:15px;
+			padding-right:15px;		
+		}
+		
+		nav a {
+			text-decoration: none;
+		}
+		@media only screen and (max-width: 500px){
+			.mast-head h1 {
+				font-size:2em;
+			}
+			body {
+				background-color: pink;
+			}
+			section {
+				margin: 1em 2em;
+			}
+			.mast-head h1 {
+				font-size: 4em;
+		}
+		
